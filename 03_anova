@@ -1,0 +1,39 @@
+> anova (lm.myData1)
+Analysis of Variance Table
+
+Response: myData1$c_degradation
+Df     Sum Sq    Mean Sq F value    Pr(>F)    
+myData1$diameter_um  1 3.2474e+10 3.2474e+10  139.74 7.626e-05 ***
+  Residuals            5 1.1620e+09 2.3239e+08                      
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> anova (lm.myData2)
+Analysis of Variance Table
+
+Response: myData2$c_degradation
+Df     Sum Sq    Mean Sq F value    Pr(>F)    
+myData2$diameter_um  1 1.5972e+10 1.5972e+10  205.52 2.977e-05 ***
+  Residuals            5 3.8858e+08 7.7715e+07                      
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> anova (lm.myData3)
+Analysis of Variance Table
+
+Response: myData3$c_degradation
+Df     Sum Sq    Mean Sq F value    Pr(>F)    
+myData3$diameter_um  1 2.4082e+10 2.4082e+10  127.32 9.554e-05 ***
+  Residuals            5 9.4570e+08 1.8914e+08                      
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+> anova (lm.myData4)
+Analysis of Variance Table
+
+Response: myData4$c_degradation
+Df     Sum Sq    Mean Sq F value    Pr(>F)    
+myData4$diameter_um  1 4.7155e+10 4.7155e+10  74.389 0.0003459 ***
+  Residuals            5 3.1695e+09 6.3390e+08                      
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
